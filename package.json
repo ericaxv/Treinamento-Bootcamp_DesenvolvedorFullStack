@@ -1,0 +1,12 @@
+{
+  "name": "desafio-modulo01",
+  "version": "1.0.0",
+  "description": "treinamento javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "author": "erica xavier",
+  "license": "MIT"
+}

@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(230, 212, 188);
+  text-align: center;
+}
+
+div {
+  margin-top: 10px;
+  text-align: center;
+}
+
+p {
+  font-size: 30px;
+  color: brown;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+textarea {
+  margin-top: 50px;
+  border-radius: 60px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: brown;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input-text {
+  width: 50px;
+  height: 15px;
+}
+.input-range-red {
+  -webkit-appearance: none;
+  background: red;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  width: 25%;
+  cursor: pointer;
+}
+
+.input-range-green {
+  -webkit-appearance: none;
+  background: green;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  width: 25%;
+  cursor: pointer;
+}
+
+.input-range-blue {
+  -webkit-appearance: none;
+  background: blue;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  width: 25%;
+  cursor: pointer;
+}
+
+.input-range-red::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 15px;
+  background: rgb(228, 86, 86);
+  cursor: pointer;
+}
+
+.input-range-green::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 15px;
+  background: rgb(86, 173, 86);
+  cursor: pointer;
+}
+
+.input-range-blue::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 15px;
+  background: rgb(82, 82, 231);
+  cursor: pointer;
+}
